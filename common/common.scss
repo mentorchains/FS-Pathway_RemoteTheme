@@ -1,0 +1,22 @@
+@import "variables";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html, body {
+	background: $background-grey !important;
+	font-family: Montserrat, Helvetica, Sans-serif;
+}
+
+.banner {
+	height: 200px;
+	width: 100%;
+}
+
+.banner__title {
+	font-size: 3em;
+	color: $logo-green;
+}
+
+.banner__desc {
+	font-size: 1em;
+	color: $logo-green;
+}
