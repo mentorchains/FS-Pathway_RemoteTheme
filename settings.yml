@@ -1,0 +1,13 @@
+---
+  stem-away: "An international organization built to give STEM aspiring students internship opportunities"
+  full-stack: "a wonderful pathway hub"
+  pi: 3.14159
+  am-I-right: true
+  my-favorite-things:
+    do: "a deer, a female deer"
+    re: "a drop of golden sun"
+    mi: "a name I call myself"
+  numbers:
+    - one
+    - two
+    - three
