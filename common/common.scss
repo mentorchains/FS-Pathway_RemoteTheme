@@ -18,6 +18,7 @@ html, body {
     color: #ffffff;
     padding-left: 40px;
     padding-right: 40px;
+		position: fixed;
 }
 
 .footer {
@@ -27,14 +28,12 @@ html, body {
   font-size: calc(15px);
   color: white;
   text-align: center;
+	position: fixed;
 }
 
 .banner {
 	height: 200px;
 	width: 100%;
-	position: fixed;
-	background-image: url("https://i.ytimg.com/vi/-MOhO6aA2-g/maxresdefault.jpgD");
-	background-position: center;
 }
 
 .banner__title {
