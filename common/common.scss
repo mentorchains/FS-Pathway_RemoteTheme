@@ -33,16 +33,17 @@ html, body {
 .banner {
 	height: 200px;
 	width: 100%;
+	justify-content: center;
 }
 
 .banner__title {
 	font-size: 3em;
-	color: $logo-green;
-	font-family: "Monaco", monospace;
+	color: #F0F8FF;
+	font-family: "Verdana", sans-serif;
 }
 
 .banner__desc {
 	font-size: 1em;
 	color: $logo-green;
-	font-family: "Courier New", monospace;
+	font-family: "Verdana", sans-serif;
 }
