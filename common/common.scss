@@ -1,8 +1,9 @@
 @import "variables";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
 
 html, body {
-	background: $background-grey !important;
+	background: #F0F8FF !important;
 	font-family: Montserrat, Helvetica, Sans-serif;
 }
 
@@ -40,10 +41,12 @@ html, body {
 	font-size: 3em;
 	color: #F0F8FF;
 	font-family: "Verdana", sans-serif;
+	justify-content: center;
 }
 
 .banner__desc {
 	font-size: 1em;
 	color: $logo-green;
 	font-family: "Verdana", sans-serif;
+	justify-content: center;
 }
