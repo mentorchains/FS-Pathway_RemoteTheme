@@ -9,16 +9,17 @@ html, body {
 .banner {
 	height: 200px;
 	width: 100%;
+	background-color: purple;
 }
 
 .banner__title {
 	font-size: 3em;
-	color: $logo-green;
+	color: yellow;
 }
 
 .banner__desc {
 	font-size: 1em;
-	color: $logo-green;
+	color: yellow;
 }
 
 .after-topics {
