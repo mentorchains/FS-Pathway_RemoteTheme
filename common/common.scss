@@ -13,10 +13,25 @@ html, body {
 
 .banner__title {
 	font-size: 3em;
-	color: $logo-green;
+	color: var(--secondary);
 }
 
 .banner__desc {
 	font-size: 1em;
-	color: $logo-green;
+	color: var(--secondary);
+}
+
+.hello-world-banner {
+  height: 300px;
+  width: 100%;
+  background: var(--quaternary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.hello-world {
+  font-size: 8em;
+  color: var(--secondary);
 }
