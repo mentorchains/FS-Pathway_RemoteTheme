@@ -9,21 +9,24 @@ html, body {
 .banner {
 	height: 200px;
 	width: 100%;
-	background: $background-grey
+	background: $background-grey;
 }
 
 .banner__title {
 	font-size: 3em;
 	color: $logo-green;
+	padding: 0px,0px,0px,10px
 }
 
 .banner__desc {
 	font-size: 1em;
 	color: $logo-white;
+	padding: 0px,0px,0px,10px
 }
 
 .footer {
-	background: $background-grey
+	background: $background-grey;
+	text-align:left;
 }
 
 .footer__desc {
