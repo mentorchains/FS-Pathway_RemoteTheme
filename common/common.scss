@@ -2,8 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 html, body {
-	background: $background-dark !important;
-	color: white;
+	background: white !important;
 	font-family: Montserrat, Helvetica, Sans-serif;
 }
 
@@ -15,14 +14,14 @@ html, body {
 
 .banner__title {
 	text-align: center;
-	font-size: 3em;
 	color: $black;
+	font-size: 3em;
 }
 
 .banner__desc {
 	text-align: center;
 	font-size: 1em;
-	color: $black;
+	color: black;
 }
 
 .footer {
@@ -30,7 +29,7 @@ html, body {
 }
 
 .footer_title {
-	font-size 2em;
+	font-size: 2em;
 	color: white;
 }
 
