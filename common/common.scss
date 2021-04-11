@@ -1,22 +1,23 @@
 @import "variables";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-html, body {
-	background: $background-grey !important;
-	font-family: Montserrat, Helvetica, Sans-serif;
+html,
+body {
+  background: $background-grey !important;
+  font-family: Montserrat, Helvetica, Sans-serif;
 }
 
 .banner {
-	height: 200px;
-	width: 100%;
+  height: 300px;
+  width: 100%;
+  background-color: #0198e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
 }
 
 .banner__title {
-	font-size: 3em;
-	color: $logo-green;
-}
-
-.banner__desc {
-	font-size: 1em;
-	color: $logo-green;
+  font-size: 7em;
+  color: #fff;
 }
