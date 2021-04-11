@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 html, body {
-	background: $background-grey !important;
+	background: $background-darkgrey !important;
 	font-family: Montserrat, Helvetica, Sans-serif;
 }
 
@@ -18,5 +18,5 @@ html, body {
 
 .banner__desc {
 	font-size: 1em;
-	color: $logo-green;
+	color: $logo-white;
 }
