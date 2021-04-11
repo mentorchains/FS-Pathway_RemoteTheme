@@ -1,0 +1,9 @@
+<script type="text/discourse-plugin" version="0.8">
+    const user = api.getCurrentUser(),
+      username = user.username;
+    //console.log(user)
+    alert('Hello ' + username +' !')
+    $( document ).ready(function() {    
+      $('user_greeting').html('Hello there ' + username + " !")
+    });
+</script>
