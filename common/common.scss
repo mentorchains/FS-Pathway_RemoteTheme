@@ -13,7 +13,7 @@ html, body {
 
 .banner__title {
 	font-size: 3em;
-	color: var(--secondary);
+	color: var(--header_primary);
 }
 
 .banner__desc {
@@ -24,7 +24,7 @@ html, body {
 .hello-world-banner {
   height: 300px;
   width: 100%;
-  background: var(--quaternary);
+  background: var(--header_background);
   display: flex;
   align-items: center;
   justify-content: left;
@@ -33,5 +33,5 @@ html, body {
 
 .hello-world {
   font-size: 8em;
-  color: var(--secondary);
+  color: var(--header_primary);
 }
