@@ -9,7 +9,7 @@ html, body {
 .banner {
 	height: 150px;
 	width: 100%;
-	background: #ff32b6;
+	background: $banner-background;
 	align-items: center;
 	margin-bottom: 1em;
 }
@@ -34,7 +34,7 @@ html, body {
 .hello-world-banner {
   height: 200px;
   width: 100%;
-  background: #35d05c;
+  background: $hello-world-banner-background;
   display: flex;
   align-items: center;
   justify-content: center;
