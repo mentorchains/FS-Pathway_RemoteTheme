@@ -7,7 +7,7 @@ html, body {
 }
 
 .banner {
-	height: 100px;
+	height: 150px;
 	width: 100%;
 	background: #ff32b6;
 	align-items: center;
@@ -22,11 +22,13 @@ html, body {
 .banner__desc {
 	font-size: 1em;
 	color: var(--secondary);
+	margin: 0px;
 }
 
 .user_greeting {
 	font-size: 2em;
 	color: var(--secondary);
+	margin: 0px;
 }
 
 .hello-world-banner {
