@@ -9,6 +9,7 @@ html, body {
 .banner {
 	height: 200px;
 	width: 100%;
+	background: var(--tertiary);
 }
 
 .banner__title {
@@ -22,12 +23,12 @@ html, body {
 }
 
 .hello-world-banner {
-  height: 300px;
+  height: 200px;
   width: 100%;
   background: var(--header_background);
   display: flex;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   margin-bottom: 1em;
 }
 
