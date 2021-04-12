@@ -2,38 +2,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 html, body {
-	background: white !important;
 	font-family: Montserrat, Helvetica, Sans-serif;
 }
 
 .banner {
-	height: 200px;
+    background: $grey_dark;
+	height: 5%;
 	width: 100%;
-	background: $grey_light;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-top: medium solid $grey_light;
+	border-bottom: medium solid $grey_light;
 }
 
 .banner__title {
 	text-align: center;
-	color: black;
+	color: $grey_light;
 	font-size: 3em;
 }
 
 .banner__desc {
 	text-align: center;
 	font-size: 1em;
-	color: black;
+	color: $grey_light;
 }
 
 .footer {
-	background: $dark;
+	background: $grey_dark;
+	padding: 1%;
 }
 
-.footer_title {
+.footer__title {
 	font-size: 2em;
-	color: white;
+	color: $grey_light;
 }
 
 .footer__desc {
 	font-size: 1em;
-	color: white;
+	color: $grey_light;
 }
+
+
