@@ -21,17 +21,10 @@ html, body {
 	color: $logo-blue;
 }
 
-.common_banner {
+.commonBanner {
 	width:70vw;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: white
+	background-color: white;
 	padding:100px;
-}
-
-.customHeader {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  background-color: #34495e;
 }
