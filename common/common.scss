@@ -7,16 +7,41 @@ html, body {
 }
 
 .banner {
-	height: 200px;
+	height: 150px;
 	width: 100%;
+	background: $banner-background;
+	align-items: center;
+	margin-bottom: 1em;
 }
 
 .banner__title {
 	font-size: 3em;
-	color: $logo-green;
+	color: var(--header_primary);
 }
 
 .banner__desc {
 	font-size: 1em;
-	color: $logo-green;
+	color: var(--secondary);
+	margin: 0px;
+}
+
+.user_greeting {
+	font-size: 2em;
+	color: var(--secondary);
+	margin: 0px;
+}
+
+.hello-world-banner {
+  height: 200px;
+  width: 100%;
+  background: $hello-world-banner-background;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.hello-world {
+  font-size: 8em;
+  color: var(--header_primary);
 }
