@@ -13,10 +13,64 @@ html, body {
 
 .banner__title {
 	font-size: 3em;
-	color: $logo-green;
+	color: $logo-blue;
 }
 
 .banner__desc {
 	font-size: 1em;
-	color: $logo-green;
+	color: $logo-blue;
+	border-width: 2in;
+	border-bottom: 2px solid $border-color;
+	border-top: 2px solid $border-color;
 }
+.hello-world-banner {
+    height: 300px;
+    width: 100%;
+    background: $logo-blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.hello-world {
+    font-size: 8em;
+    color: $font-color;
+}
+
+  .navigation-container {
+	.select-kit.combo-box {
+	  .select-kit-header {
+		border-radius: 20px;
+		background-color: $select-box-color;
+	  }
+	}
+  }
+
+.nav-pills {
+	& > li a {
+	  padding: 0;
+	  margin-right: 20px;
+	  color: $select-box-color;
+	
+  
+	  &.active {
+		color: $select-box-color;
+		background-color: var(--secondary);
+		border-bottom: 5px solid $select-box-color;
+	  }
+  
+	  &:hover {
+		color: var(--secondary);
+		background-color: $select-box-color;
+		border-bottom: 5px solid var(--primary);
+	  }
+	}
+  }
+  
+.btn {
+	background: $select-box-color;
+	color: $font-color;
+	
+}
+  
